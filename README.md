@@ -5,4 +5,6 @@ Libraries are loaded locally in SharePoint document library folders.
 Webpart page is used with a content editor webpart linking to the index.html file.
 Confirmed works in SP2013 and SP2010.
 
+/*  Images based on Chris Converse course for Lynda.com  */
+
 https://github.com/pvestal/spFAQ/blob/master/images/screenShots.gif
