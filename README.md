@@ -3,4 +3,4 @@ Front-end javascript and css which allows searching of list questions that displ
 The following dependent libraries are used: Bootstrap & jQuery.
 Libraries are loaded locally in SharePoint document library folders.
 Webpart page is used with a content editor webpart linking to the index.html file.
-Confirmed works in SP2013 and SP2010
+Confirmed works in SP2013 and SP2010.
