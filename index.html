@@ -1,0 +1,65 @@
+<link rel="stylesheet" type="text/css" href="../YourDocLib/includes/faq.css" />
+<link rel="stylesheet" type="text/css" href="../YourDocLib/includes/Bootstrap/css/bootstrap.css" />
+
+<!-- Triggers the search modal with a button at the top vs scrolling down to search-->
+<div class="input-group mb-3">
+	<input type="text" id="searchTerm" class="form-control" placeholder="Search Questions" aria-label="Search Questions"
+	 aria-describedby="basic-addon2">
+	<div class="input-group-append">
+		<button class="btn btn-outline-secondary" id="btnSearch" type="button" data-toggle="modal" data-target="#searchModal">Search</button>
+	</div>
+</div>
+
+<!-- Search Modal -->
+<div id="searchModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5>Search Results</h5>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+			</div>
+			<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#addQuestionModal">Add Question</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- Ask Question Modal -->
+<div id="addQuestionModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add Question</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                   Question: <input type="text" id="question">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+<div id="placeHolder">
+	<img src="../YourDocLib/images/NewFAQTop.png" id="headerImg" alt="corkboard_heading" />
+</div>
+
+
+<!--These are placed at the bottom due to my instance of SP loading scripts out of order-->
+<script src="../YourDocLib/includes/jquery-1.12.4.js" type="text/javascript" charset="utf8"></script>
+<script src="../YourDocLib/includes/jquery-1.12.4-ui.js" type="text/javascript" charset="utf8"></script>
+<script src="../YourDocLib/includes/useSPList.js" type="text/javascript" charset="utf8"></script>
+<script src="../YourDocLib/includes/Bootstrap/js/bootstrap.js" type="text/javascript" charset="utf8"></script>
