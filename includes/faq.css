@@ -1,0 +1,60 @@
+/*This sets the container and image*/
+#placeHolder {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/corkboard_tile.jpg");
+	background-repeat: repeat-y;
+	background-size: contain;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
+/*This sets the question class*/
+.faq_question {
+	background-image: url("../images/q.png");
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+/*This corrects the horizontal padding for the Question img*/
+.faq_question img {
+	opacity: 0.25;
+	padding-left: -45px;
+	padding-bottom: 5px;
+}
+
+/*This sets and hides the answer until someone clicks on the Question div*/
+.faq_answer {
+	display: none;
+	background-image: url("../images/a-lgreen.png");
+	background-repeat: no-repeat;
+	margin-left: 15px;
+	padding-left: 45px;
+	padding-bottom: 5px;
+}
+
+/*This corrects the horizontal padding for the Answer img*/
+.faq_answer img {
+	padding-left: -45px;
+}
+
+/*This turns off the page title in SP2013*/
+#pageTitle {
+	display: none;
+}
+
+/*This turns off the searchBox in SP2013*/
+#SearchBox {
+	display: none;
+}
+/*This turns off the sideNavBox in SP2013*/
+#sideNavBox {
+	display: none;
+}
+
+/*This turns off the logo in SP2013*/
+#siteIcon {
+	display: none;
+}
