@@ -7,4 +7,4 @@ Confirmed works in SP2013.
 
 /*  Images based on Chris Converse course for Lynda.com  */
 
-https://github.com/pvestal/spFAQ/blob/master/images/screenShots.gif
+![sharePoint screenshot gif](https://github.com/pvestal/spFAQ/blob/master/images/screenShots.gif)
